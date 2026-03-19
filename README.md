@@ -33,4 +33,5 @@ int result = 4;
 result += ++c;
 
 - Aqui o a variável c é incrementada e agora passa a ter o valor de 8 e é somado com o a variável result q obtem o valor 4.                                                                       
-System.out.println(result);             - Aqui é imprimido o valor da operação que esta armazenada na variável result.                                                 
+System.out.println(result);
+- Aqui é imprimido o valor da operação que esta armazenada na variável result.                                                 
