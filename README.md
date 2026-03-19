@@ -16,14 +16,21 @@ byte y = 10;
 ## Questão 3
 Resposta: A
 
-int x = 5 * 4 % 3                       - A expressão é realizada com prioridade pela multplicação e em seguida pela divisão. Assim a                                                                                        resolução da expressão fica 5 * 4 = 20
-                                         e seu resultado é usado para completar a resolução da                                             expressão 20 % 3 = 2, pois o operado "%" pega o resto da                                          operação matemática.
-System.out.println(x);                  - Aqui é imprimido o valor da operação que esta                                                   armazenada na variável x.
+int x = 5 * 4 % 3                       
+- A expressão é realizada com prioridade pela multplicação e em seguida pela divisão. Assim a resolução da expressão fica 5 * 4 = 20 e seu resultado é usado para completar a resolução da  expressão 20 % 3 = 2, pois o operado "%" pega o resto da operação matemática.
+                                                                                                                         
+System.out.println(x);                 
+- Aqui é imprimido o valor da operação que esta armazenada na variável x.                                               
 
 ## Questão 4
 Resposta: C
 
-int c = 7;                              - O valor da variável c = 7  
-int result = 4;                         - O valor da variável result = 4
-result += ++c;                          - Aqui o a variável c é incrementada e agora passa a ter                                          o valor de 8 e é somado com o a variável result q obtem o                                         valor 4.
-System.out.println(result);             - Aqui é imprimido o valor da operação que esta                                                   armazenada na variável result.
+int c = 7;   
+- O valor da variável c = 7                            
+int result = 4;
+
+- O valor da variável result = 4
+result += ++c;
+
+- Aqui o a variável c é incrementada e agora passa a ter o valor de 8 e é somado com o a variável result q obtem o valor 4.                                                                       
+System.out.println(result);             - Aqui é imprimido o valor da operação que esta armazenada na variável result.                                                 
