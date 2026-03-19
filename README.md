@@ -16,7 +16,7 @@ byte y = 10;
 ## Questão 3
 Resposta: A
 
-int x = 5 * 4 % 3                       - A expressão é realizada com prioridade pela                                                      multplicação e em seguida pela divisão. Assim a                                                   resolução da expressão fica 5 * 4 = 20
+int x = 5 * 4 % 3                       - A expressão é realizada com prioridade pela multplicação e em seguida pela divisão. Assim a                                                                                        resolução da expressão fica 5 * 4 = 20
                                          e seu resultado é usado para completar a resolução da                                             expressão 20 % 3 = 2, pois o operado "%" pega o resto da                                          operação matemática.
 System.out.println(x);                  - Aqui é imprimido o valor da operação que esta                                                   armazenada na variável x.
 
